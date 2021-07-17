@@ -4,6 +4,9 @@ function readline() {
     return question('');
 }
 
+
+//------------------------
+
 function getCounts(row:string) : number[] {
     const numbers: number[] = [];
     for (var i:number = 0; i < row.length; i++) {
